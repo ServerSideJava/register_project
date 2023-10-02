@@ -9,18 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e692f7de-3f60-483b-ac76-16f1917c2a70" name="Changes" comment="first init">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CourseRegistered.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CourseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Semester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/register/CourseListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/register/CourseRegisterHistoryServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/register/RegisterCourseServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    <list default="true" id="e692f7de-3f60-483b-ac76-16f1917c2a70" name="Changes" comment="ADD: first index page finished">
+      <change beforePath="$PROJECT_DIR$/src/main/java/CourseRegistered.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/CourseRegistered.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CourseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/CourseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Semester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Semester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/register/CourseListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/CourseListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/register/CourseRegisterHistoryServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/CourseRegisterHistoryServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/register/RegisterCourseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/RegisterCourseServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +39,9 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2WBvRRI6l4Kauqs8YyUXIJx8BlL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -114,7 +113,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696218778489</updated>
-      <workItem from="1696218779483" duration="816000" />
+      <workItem from="1696218779483" duration="1780000" />
     </task>
     <task id="LOCAL-00001" summary="first init">
       <option name="closed" value="true" />
@@ -124,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696218810422</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ADD: first index page finished">
+      <option name="closed" value="true" />
+      <created>1696219680579</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696219680579</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +140,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first init" />
-    <option name="LAST_COMMIT_MESSAGE" value="first init" />
+    <MESSAGE value="ADD: first index page finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD: first index page finished" />
   </component>
 </project>

@@ -1,10 +1,10 @@
-package sit.int202.register.servlets;
+package servlets;
 
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
-import sit.int202.register.models.CourseRepository;
-import sit.int202.register.models.Semester;
+import models.CourseRepository;
+import models.Semester;
 
 import java.io.IOException;
 import java.util.Map;

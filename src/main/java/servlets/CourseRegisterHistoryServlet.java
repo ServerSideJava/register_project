@@ -1,4 +1,4 @@
-package sit.int202.register.servlets;
+package servlets;
 
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
